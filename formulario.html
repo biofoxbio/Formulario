@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario html </title>
+</head>
+<body>
+    <div class="container">
+        <h2> Meu Formulario<span> HTML </span> Formulario  </h2>
+        <form action="Backend.php">
+            <div class="col">
+                <label for="fname"> First name</label>
+                <input type="text" name="myName" id="fname">
+            </div>
+
+            <div class="col">
+                <label for="lname"> Last Name</label>
+                <input type="text" name="MyName" id="lname">
+            </div>
+
+            <div class="col">
+                <label for="number">Phone</label>
+                <input type="number" name="myNumber" id="number">
+            </div>
+
+            <div class="col">
+                <label for="dob">DOB</label>
+                <input type="date" name="myDate" id="dob">
+            </div>
+
+            <div class="space">
+                <label for="eligible">Are you eligible</label>
+                <input type="checkbox" name="myEligibility" id="eligible">
+            </div>
+
+            <div class="space">
+                gender: <label for="male"> Male</label>
+                <input type="radio" name="myGender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="myGender" id="female">
+                <label for="other">Other</label>
+                <input type="radio" name="myGender" id="other">
+            </div>
+
+            <div class="space">
+                <label for="mobile">Your Mobile</label>
+
+                <select name="myMobile" id="mobile">
+                    <option value="ios">Iphone</option>
+                    <option value="redmi">redmi</option>
+                    <option value="Sam">Sansung</option>
+                    <option value="poco">Poco</option>
+                    <option value="Vivo">Vivo</option>
+                    <option value="Realme">Realme</option>
+                    <option value="Black">Blackberry</option>
+                    <option value="Nokia">Nokia</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+
+            <div class="space">
+                <label for="bio">Bio</label>
+                <textarea name="myText" placeholder="write about yourself" id="bio" cols="30" rows="-10"></textarea>
+            </div>
+
+            <div>
+                <input type="reset" value=" reset " id="reset">
+                <input type="submit" value=" submit " id="submit">
+            </div>
+            <p>Make sure that everything is <span>Correct</span></p>
+        </form>
+    </div>
+</body>
+</html>

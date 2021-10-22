@@ -1,0 +1,34 @@
+h2{
+    text-align: center;
+    color: ;
+    font-size: 30px;
+}
+
+.container{
+    background-color: antiquewhite;
+    height: 650px;
+    width: 450px;
+    border: 8px double black;
+    padding: 3px 5px;
+    border-radius: 20px;
+    text-align: left;
+    l
+}
+
+span{
+    font-weight: bold;
+}
+
+p{
+    color: red;
+    font-style: italic;
+}
+
+.col, .space{
+    line-height: 3em;
+}
+#fname, #lname, #number, #email, #dob,
+#eligible, #mobile, #reset, #submit, #bio{
+    font-size: 15px;
+
+} 
